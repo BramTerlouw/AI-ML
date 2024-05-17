@@ -1,0 +1,294 @@
+[
+    {
+        "question": "What is Data Science?",
+        "answer": "Data Science is a field that uses a variety of analytical tools and techniques to derive insights from data. It involves building, training, and validating ML models, data acquisition, data preparation, and model deployment."
+    },
+    {
+        "question": "What is the Red Hat OpenShift AI service?",
+        "answer": "The Red Hat OpenShift AI service enables Data Scientists to execute end-to-end ML workflows through the integration of Red Hat components, Open Source software, and partner Marketplace offerings. It is available as an add-on to Red Hat OpenShift Dedicated and Red Hat OpenShift Service on AWS."
+    },
+    {
+        "question": "What components are included in Red Hat OpenShift AI?",
+        "answer": "Red Hat OpenShift AI includes Jupyter notebooks, TensorFlow & PyTorch support, Git integration, and more. It is based on the Open Data Hub platform."
+    },
+    {
+        "question": "How can customers extend the capabilities of Red Hat OpenShift AI?",
+        "answer": "Customers can extend the capabilities by integrating with other Red Hat services or third-party partner offerings."
+    },
+    {
+        "question": "How does Red Hat OpenShift AI support model deployment?",
+        "answer": "Red Hat OpenShift AI supports model deployment through options to host the model on Red Hat OpenShift Dedicated or Red Hat OpenShift Service on AWS, or export the model for hosting in another environment."
+    },
+    {
+        "question": "What is the process for adding users to Red Hat OpenShift AI?",
+        "answer": "Cluster administrators must first configure the identity provider (IdP) for the Red Hat OpenShift Dedicated cluster. Users must be in the customer organization’s IdP to be added. Administrators can then add users and assign permissions as either admin or standard user based on group membership."
+    },
+    {
+        "question": "What are the user roles available in Red Hat OpenShift AI?",
+        "answer": "Administrators can assign permissions as either admin or standard user. Admin users have access to admin settings, while certain functionalities are limited to them."
+    },
+    {
+        "question": "What is model serving in Red Hat OpenShift AI?",
+        "answer": "Model serving in Red Hat OpenShift AI makes the model’s functions available as a service endpoint that can be used for testing or integration into applications."
+    },
+    {
+        "question": "How does Red Hat OpenShift AI support NVIDIA GPUs?",
+        "answer": "Customers can add NVIDIA GPUs to improve performance for compute-intensive operations. They need to configure GPU resources in the cluster and install the NVIDIA GPU operator to use the GPUs."
+    },
+    {
+        "question": "What can administrators configure in Red Hat OpenShift Dedicated clusters?",
+        "answer": "Cluster administrators can configure resources such as vCPUs, memory, GPUs, and storage based on expected number of users and compute demands. Users can specify allocated resources when starting notebook servers."
+    },
+    {
+        "question": "What are the default Jupyter notebook images provided by Red Hat OpenShift AI?",
+        "answer": "The service provides several default notebook images optimized for software bundles including Minimal Python, Standard Data Science, TensorFlow, PyTorch, CUDA, and TrustyAI. These images include tools and packages like Boto3, Kafka-python, Pandas, Matplotlib, Numpy, Scipy, and Scikit-learn."
+    },
+    {
+        "question": "How does Red Hat OpenShift AI handle software updates for notebook images?",
+        "answer": "The service automatically upgrades supported versions for software bundles periodically. When a new version of a notebook image is released, the previous version remains available and supported on the cluster until the next major image update, approximately every six months."
+    },
+    {
+        "question": "How can users connect Jupyter notebook servers to an S3 account in Red Hat OpenShift AI?",
+        "answer": "Users can specify credentials for their S3 account in environment variables when creating a new Jupyter notebook server. The credentials will be stored as Kubernetes secrets if users select 'secret' when adding the variable. Once configured, users can access S3 data from within Jupyter notebooks and export data and model files to the integrated S3 account."
+    },
+    {
+        "question": "What is required to enable S3 integration in Red Hat OpenShift AI?",
+        "answer": "Users need to create an S3 account outside of the Red Hat OpenShift AI service to enable the integration."
+    },
+    {
+        "question": "How can users connect JupyterLab notebooks to a Git repository in Red Hat OpenShift AI?",
+        "answer": "Users can specify the repository URL and access token to integrate JupyterLab notebooks with a Git repository. This allows users to pull files from Git or push files to a Git repository."
+    },
+    {
+        "question": "What is required to enable Git integration in Red Hat OpenShift AI?",
+        "answer": "Users need to create a Git account and repository outside of the Red Hat OpenShift AI service to enable the integration."
+    },
+    {
+        "question": "How can customers integrate third party services with Red Hat OpenShift AI?",
+        "answer": "Customers can explore supported third party services from the service dashboard, access documentation to learn more, and follow links to purchase services. After purchasing and installing the third party service, users can follow the getting started documentation to integrate it with Jupyter notebooks."
+    },
+    {
+        "question": "What are the deployment options for Red Hat OpenShift AI?",
+        "answer": "There are two deployment options: 1) Customers can use Red Hat OpenShift AI with Red Hat OpenShift Dedicated (OSD) deployed into their existing AWS or GCP account, paying AWS or GCP for infrastructure and Red Hat for OpenShift Dedicated. 2) Customers can use Red Hat OpenShift Service on AWS (ROSA), paying AWS for the infrastructure and ROSA."
+    },
+    {
+        "question": "On which cloud platforms is Red Hat OpenShift AI available?",
+        "answer": "Red Hat OpenShift AI is available on the AWS or GCP versions of Red Hat OpenShift Dedicated."
+    },
+    {
+        "question": "What is Red Hat's recommendation for environment isolation?",
+        "answer": "Red Hat recommends separating different environments into distinct Red Hat OpenShift Dedicated clusters with automated build and deploy pipelines to migrate development or testing clusters to staging and production clusters."
+    },
+    {
+        "question": "How is security and compliance managed in Red Hat OpenShift AI?",
+        "answer": "The included components and services are installed in protected namespaces monitored and managed by Red Hat SRE teams. Customer access to these namespaces is restricted. Customers with cluster-admin or dedicated-admin access can modify settings in these namespaces but should avoid changes outside documented tasks to ensure service availability."
+    },
+    {
+        "question": "Who is responsible for updating partner solutions integrated into Red Hat OpenShift AI?",
+        "answer": "Partner solutions are responsible for updating their solutions to address security vulnerabilities or other important flaws. If Red Hat discovers any critical issues, they will share information with partners, but it is the partner's responsibility to address the issues."
+    },
+    {
+        "question": "How is the Red Hat OpenShift AI service distributed across customer nodes?",
+        "answer": "The Red Hat OpenShift AI service is automatically distributed to customer Red Hat OpenShift Dedicated compute nodes. If the cluster supports GPUs, GPU workloads will utilize GPU nodes."
+    },
+    {
+        "question": "What happens if customers have a Multi-Availability Zone (Multi-AZ) Red Hat OpenShift Dedicated cluster?",
+        "answer": "The managed service will automatically be spread across multiple availability zones to minimize service disruptions."
+    },
+    {
+        "question": "What are the default resource requirements for installing Red Hat OpenShift AI?",
+        "answer": "The cluster must have at least 2 worker nodes with at least 8 vCPUs and 32 GB of memory per node. The Red Hat OpenShift AI infrastructure components generally require 5 vCPUs and 8GB of memory after installation."
+    },
+    {
+        "question": "What storage configuration is required for Red Hat OpenShift AI?",
+        "answer": "The OpenShift cluster must be configured with at least one default storage class that can provide persistent storage. This storage class must support Read Write Once (RWO) or Read Write Many (RWX)."
+    },
+    {
+        "question": "What notebook sizes are supported in Red Hat OpenShift AI?",
+        "answer": "The system supports the following notebook sizes: Small (2 vCPU, 8 GB RAM), Medium (6 vCPU, 24 GB RAM), Large (14 vCPU, 56 GB RAM), and X-large (30 vCPU, 120 GB RAM)."
+    },
+    {
+        "question": "How are backups managed for the Red Hat OpenShift AI service?",
+        "answer": "Core infrastructure components of the OpenShift cluster are backed up using cloud provider (AWS or GCP) snapshots stored in the cloud provider account that the OpenShift cluster is deployed into."
+    },
+    {
+        "question": "Are there any limits on the number of users or notebook servers in Red Hat OpenShift AI?",
+        "answer": "The Red Hat OpenShift AI service does not have defined limits on the number of users, notebook servers, data sizes, or notebook characteristics. Limitations are based on resources available in the cluster."
+    },
+    {
+        "question": "How are updates and upgrades handled for Red Hat OpenShift AI?",
+        "answer": "Updates and upgrades are automatically rolled out to clusters by the SRE team. Customers will be notified in advance if any downtime is anticipated."
+    },
+    {
+        "question": "What availability does Red Hat guarantee for its managed services?",
+        "answer": "Red Hat maintains a 99.95% availability for its managed services, including the underlying OpenShift Dedicated managed environment."
+    },
+    {
+        "question": "How is high availability (HA) achieved in Multi-AZ deployments of Red Hat OpenShift AI?",
+        "answer": "High availability is supported by deploying multiple replicas of the pods that make up the service, with increased pod priority to ensure the Kubernetes scheduler prioritizes the managed service scheduling needs."
+    },
+    {
+        "question": "How should customers back up user data in Red Hat OpenShift AI?",
+        "answer": "Customers should back up user data stored in individual Jupyter notebook environments using a method of their choosing, as the Red Hat OpenShift Dedicated environment backups do not include user data."
+    },
+    {
+        "question": "What happens in the event of a catastrophic failure in Red Hat OpenShift AI?",
+        "answer": "Red Hat SREs will use a commercially reasonable approach to first recover the customer Red Hat OpenShift Dedicated environment, and then the Red Hat OpenShift AI service."
+    },
+    {
+        "question": "How can you navigate back to the OpenShift console from the OpenShift AI dashboard?",
+        "answer": "Click the application launcher to access the OpenShift console."
+    },
+    {
+        "question": "What must you do before setting up your data science project in Red Hat OpenShift AI?",
+        "answer": "Ensure that you are logged in to Red Hat OpenShift AI and that you can see the dashboard."
+    },
+    {
+        "question": "Why is it recommended to create a data science project instead of starting a one-off Jupyter notebook?",
+        "answer": "Creating a data science project allows you and your team to organize and collaborate on resources within separated namespaces, create multiple workbenches, share models and data, and implement a data science workflow."
+    },
+    {
+        "question": "How do you access the page to create or select a data science project in Red Hat OpenShift AI?",
+        "answer": "On the navigation menu, select Data Science Projects. This page lists any existing projects that you have access to."
+    },
+    {
+        "question": "What should you do if you already have an active data science project in Red Hat OpenShift AI?",
+        "answer": "Select the active project and skip ahead to the next section, Storing data with data connections."
+    },
+    {
+        "question": "What are the steps to create a new data science project in Red Hat OpenShift AI?",
+        "answer": "1. Click Create data science project. 2. Enter a display name and description. A resource name is automatically generated based on the display name, but you can change it if you prefer."
+    },
+    {
+        "question": "What are workbenches in a Red Hat OpenShift AI data science project?",
+        "answer": "Workbenches are instances of your development and experimentation environment. They typically contain IDEs, such as JupyterLab, RStudio, and Visual Studio Code."
+    },
+    {
+        "question": "What are pipelines in a Red Hat OpenShift AI data science project?",
+        "answer": "Pipelines contain the data science pipelines that are executed within the project."
+    },
+    {
+        "question": "What are models in a Red Hat OpenShift AI data science project used for?",
+        "answer": "Models allow you to quickly serve a trained model for real-time inference. You can have multiple model servers per data science project, and one model server can host multiple models."
+    },
+    {
+        "question": "What is cluster storage in a Red Hat OpenShift AI data science project?",
+        "answer": "Cluster storage is a persistent volume that retains the files and data you’re working on within a workbench. A workbench has access to one or more cluster storage instances."
+    },
+    {
+        "question": "What are data connections in a Red Hat OpenShift AI data science project?",
+        "answer": "Data connections contain configuration parameters that are required to connect to a data source, such as an S3 object bucket."
+    },
+    {
+        "question": "What do permissions define in a Red Hat OpenShift AI data science project?",
+        "answer": "Permissions define which users and groups can access the project."
+    },
+    {
+        "question": "What are the components of a datas science project?",
+        "answer": "The initial component are workbenches, pipelines, model server, cluster storage, data connections and permissions."
+    },
+    {
+        "question": "What are the two options for creating data connections to storage buckets in the tutorial?",
+        "answer": "You can either create data connections to your own S3-compatible object storage buckets or run a script that installs local Minio storage buckets and creates data connections to them."
+    },
+    {
+        "question": "What credential information do you need to create data connections to your existing S3-compatible storage buckets?",
+        "answer": "You need the following credential information: Endpoint URL, Access key, Secret key, Region, and Bucket name."
+    },
+    {
+        "question": "How do you create a data connection for saving your data and models in the OpenShift AI dashboard?",
+        "answer": "1. Navigate to the page for your data science project. 2. Click the Data connections tab and then click Add data connection. 3. Fill out the Add data connection form and name your connection My Storage. 4. Click Add data connection."
+    },
+    {
+        "question": "What do you need to do before enabling data science pipelines in Red Hat OpenShift AI?",
+        "answer": "You need to have installed local object storage buckets and created data connections."
+    },
+    {
+        "question": "What is the purpose of using the JupyterLab Elyra extension in this tutorial?",
+        "answer": "The JupyterLab Elyra extension is used to create a visual end-to-end pipeline workflow that can be executed in OpenShift AI."
+    },
+    {
+        "question": "How do you configure the pipeline server in Red Hat OpenShift AI?",
+        "answer": "1. In the OpenShift AI dashboard, click Data Science Projects and select Fraud Detection. 2. Click the Pipelines tab. 3. Click Configure pipeline server. 4. In the Configure pipeline server form, in the Access key field next to the key icon, click the dropdown menu and select Pipeline Artifacts. 5. Leave the database configuration as the default. 6. Click Configure pipeline server."
+    },
+    {
+        "question": "What must you wait for before creating your workbench after configuring the pipeline server?",
+        "answer": "You must wait until the pipeline configuration is complete and 'No pipelines yet' is displayed. If you create your workbench before the pipeline server is ready, your workbench will not be able to submit pipelines to it."
+    },
+    {
+        "question": "What is a workbench in Red Hat OpenShift AI?",
+        "answer": "A workbench is an instance of your development and experimentation environment where you can select a notebook image for your data science work."
+    },
+    {
+        "question": "What are the prerequisites for creating a workbench in Red Hat OpenShift AI?",
+        "answer": "You need to have created a data connection and configured a pipeline server."
+    },
+    {
+        "question": "How do you create a workbench in Red Hat OpenShift AI?",
+        "answer": "1. Navigate to the project detail page for the data science project. 2. Click the Workbenches tab, and then click the Create workbench button. 3. Fill out the name and description. 4. Select an image in the Notebook image section. 5. Choose a deployment size. 6. Optionally enter environment variables. 7. Under Data connections, select a new or existing dataconnection. 8. Click the Create workbench button."
+    },
+    {
+        "question": "Which notebook image is recommended for this tutorial in Red Hat OpenShift AI?",
+        "answer": "The latest Tensorflow image is recommended for this tutorial."
+    },
+    {
+        "question": "What is the Jupyter environment in Red Hat OpenShift AI?",
+        "answer": "The Jupyter environment is a web-based environment powered by the OpenShift cluster, where users can conduct their data science work without needing to install and maintain anything on their own computer."
+    },
+    {
+        "question": "What is the prerequisite for importing tutorial files into the Jupyter environment in Red Hat OpenShift AI?",
+        "answer": "The prerequisite is to have created a workbench, as described in 'Creating a workbench and selecting a Notebook image'."
+    },
+    {
+        "question": "How do you open the Jupyter environment in Red Hat OpenShift AI?",
+        "answer": "Click the Open link next to your workbench, and if prompted, log in and allow the Notebook to authorize your user."
+    },
+    {
+        "question": "How do you import the tutorial files into the Jupyter environment in Red Hat OpenShift AI?",
+        "answer": "1. Click the Git Clone icon on the toolbar. 2. Enter the Git URL 3. Check the Include submodules option if needed. 4. Click Clone."
+    },
+    {
+        "question": "What is the purpose of preparing a model for deployment in OpenShift AI?",
+        "answer": "The purpose is to move the trained model from the workbench to S3-compatible object storage and convert it to a portable  format, which allows for easier deployment and transfer between frameworks."
+    },
+    {
+        "question": "What are the prerequisites for preparing a model for deployment in OpenShift AI?",
+        "answer": "The prerequisites are: 1. Creating the data connection 'My Storage'. 2. Adding the data connection to your workbench."
+    },
+    {
+        "question": "What are the two options for model serving in OpenShift AI?",
+        "answer": "The two options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What is the prerequisite for deploying a model on a single-model server?",
+        "answer": "The prerequisite is to have a user with admin privileges enable the single-model serving platform on the OpenShift cluster."
+    },
+    {
+        "question": "How do you deploy a model on a single-model server in OpenShift AI?",
+        "answer": "1. Navigate to the project details page in the OpenShift AI dashboard and click the Models tab. 2. In the Single-model serving platform tile, click Deploy model. 3. Fill out the form with the required values and click Deploy."
+    },
+    {
+        "question": "What is the prerequisite for deploying a model on a multi-model server?",
+        "answer": "The prerequisite is to have a user with admin privileges enable the multi-model serving platform on the OpenShift cluster."
+    },
+    {
+        "question": "How do you deploy a model on a multi-model server in OpenShift AI?",
+        "answer": "1. Navigate to the project details page in the OpenShift AI dashboard and click the Models tab. 2. In the Multi-model serving platform tile, click Add model server. 3. Fill out the form with the required values and click Add. 4. Click Deploy model next to the new model server in the Models and model servers list. 5. Fill out the form with the required values and click Deploy."
+    },
+    {
+        "question": "How do you add nodes to your pipeline in OpenShift AI?",
+        "answer": "You drag the respective notebook files onto the pipeline canvas."
+    },
+    {
+        "question": "What is the purpose of specifying the training file as a dependency?",
+        "answer": "Specifying the training file as a dependency ensures that the file is included in the node when it runs, preventing the training job from failing."
+    },
+    {
+        "question": "How do you configure the data connection to the S3 storage bucket in the pipeline?",
+        "answer": "You use the Kubernetes secret created by the data connection. Environment variables such as AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_S3_ENDPOINT, AWS_DEFAULT_REGION, and AWS_S3_BUCKET must be set with their corresponding values from the secret."
+    },
+    {
+        "question": "How do you run the pipeline in OpenShift AI?",
+        "answer": "You can upload the pipeline on your cluster and run it directly from the pipeline editor. Click the play button, enter a name for your pipeline, verify the runtime configuration, and then click OK."
+    }
+]
