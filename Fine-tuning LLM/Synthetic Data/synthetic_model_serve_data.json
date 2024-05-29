@@ -1,0 +1,342 @@
+[
+    {
+        "question": "What are the two options for model serving in OpenShift AI?",
+        "answer": "The two options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "Can you name the two types of model serving available in OpenShift AI?",
+        "answer": "The two types are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What options does OpenShift AI provide for serving models?",
+        "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+    },
+    {
+        "question": "What are the available model serving methods in OpenShift AI?",
+        "answer": "The available methods are single-model serving and multi-model serving."
+    },
+    {
+        "question": "In OpenShift AI, what are the two model serving options?",
+        "answer": "The two model serving options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "How does OpenShift AI serve models?",
+        "answer": "OpenShift AI serves models using single-model serving and multi-model serving."
+    },
+    {
+        "question": "What model serving options are offered by OpenShift AI?",
+        "answer": "The options offered are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two serving models in OpenShift AI?",
+        "answer": "The two serving models are single-model serving and multi-model serving."
+    },
+    {
+        "question": "Which two serving options does OpenShift AI provide for models?",
+        "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+    },
+    {
+        "question": "Can you list the model serving options in OpenShift AI?",
+        "answer": "The model serving options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the model serving choices in OpenShift AI?",
+        "answer": "The choices are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two types of serving models in OpenShift AI?",
+        "answer": "The two types are single-model serving and multi-model serving."
+    },
+    {
+        "question": "In OpenShift AI, what options are available for model serving?",
+        "answer": "The available options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What serving options does OpenShift AI offer for models?",
+        "answer": "OpenShift AI offers single-model serving and multi-model serving options."
+    },
+    {
+        "question": "What are the two model serving options available in OpenShift AI?",
+        "answer": "The two options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "How many options for model serving does OpenShift AI provide?",
+        "answer": "OpenShift AI provides two options: single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the model serving methods in OpenShift AI?",
+        "answer": "The methods are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two ways to serve models in OpenShift AI?",
+        "answer": "The two ways are single-model serving and multi-model serving."
+    },
+    {
+        "question": "In OpenShift AI, what are the options for serving models?",
+        "answer": "The options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two main options for model serving in OpenShift AI?",
+        "answer": "The main options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What serving options are available for models in OpenShift AI?",
+        "answer": "The available options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the model serving options in OpenShift AI?",
+        "answer": "The options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "How does OpenShift AI handle model serving?",
+        "answer": "OpenShift AI handles model serving with single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two available options for model serving in OpenShift AI?",
+        "answer": "The two available options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the serving options for models in OpenShift AI?",
+        "answer": "The serving options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "In OpenShift AI, what serving methods are available for models?",
+        "answer": "The serving methods available are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two serving methods in OpenShift AI?",
+        "answer": "The two serving methods are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two options provided by OpenShift AI for model serving?",
+        "answer": "The options provided are single-model serving and multi-model serving."
+    },
+    {
+        "question": "How many serving options are there in OpenShift AI?",
+        "answer": "There are two serving options: single-model serving and multi-model serving."
+    },
+    {
+        "question": "What types of model serving are available in OpenShift AI?",
+        "answer": "The types available are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What serving options does OpenShift AI provide?",
+        "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+    },
+    {
+        "question": "In OpenShift AI, what are the available serving options for models?",
+        "answer": "The available serving options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the options for serving models in OpenShift AI?",
+        "answer": "The options for serving models are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two model serving choices provided by OpenShift AI?",
+        "answer": "The choices provided are single-model serving and multi-model serving."
+    },
+    {
+        "question": "How many model serving options does OpenShift AI have?",
+        "answer": "OpenShift AI has two model serving options: single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the different model serving options in OpenShift AI?",
+        "answer": "The different options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What serving methods are offered by OpenShift AI for models?",
+        "answer": "The methods offered are single-model serving and multi-model serving."
+    },
+    {
+        "question": "In OpenShift AI, what are the model serving methods?",
+        "answer": "The methods are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What model serving options does OpenShift AI have?",
+        "answer": "The options are single-model serving and multi-model serving."
+    },
+    {
+        "question": "What are the two ways OpenShift AI can serve models?",
+        "answer": "The two ways are single-model serving and multi-model serving."
+    },
+    {
+      "question": "What are the two options for model serving in OpenShift AI?",
+      "answer": "The two options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "Can you name the two types of model serving available in OpenShift AI?",
+      "answer": "The two types are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What options does OpenShift AI provide for serving models?",
+      "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+  },
+  {
+      "question": "What are the available model serving methods in OpenShift AI?",
+      "answer": "The available methods are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what are the two model serving options?",
+      "answer": "The two model serving options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "How does OpenShift AI serve models?",
+      "answer": "OpenShift AI serves models using single-model serving and multi-model serving."
+  },
+  {
+      "question": "What model serving options are offered by OpenShift AI?",
+      "answer": "The options offered are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two serving models in OpenShift AI?",
+      "answer": "The two serving models are single-model serving and multi-model serving."
+  },
+  {
+      "question": "Which two serving options does OpenShift AI provide for models?",
+      "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+  },
+  {
+      "question": "Can you list the model serving options in OpenShift AI?",
+      "answer": "The model serving options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the model serving choices in OpenShift AI?",
+      "answer": "The choices are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two types of serving models in OpenShift AI?",
+      "answer": "The two types are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what options are available for model serving?",
+      "answer": "The available options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What serving options does OpenShift AI offer for models?",
+      "answer": "OpenShift AI offers single-model serving and multi-model serving options."
+  },
+  {
+      "question": "What are the two model serving options available in OpenShift AI?",
+      "answer": "The two options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "How many options for model serving does OpenShift AI provide?",
+      "answer": "OpenShift AI provides two options: single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the model serving methods in OpenShift AI?",
+      "answer": "The methods are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two ways to serve models in OpenShift AI?",
+      "answer": "The two ways are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what are the options for serving models?",
+      "answer": "The options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two main options for model serving in OpenShift AI?",
+      "answer": "The main options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What serving options are available for models in OpenShift AI?",
+      "answer": "The available options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the model serving options in OpenShift AI?",
+      "answer": "The options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "How does OpenShift AI handle model serving?",
+      "answer": "OpenShift AI handles model serving with single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two available options for model serving in OpenShift AI?",
+      "answer": "The two available options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the serving options for models in OpenShift AI?",
+      "answer": "The serving options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what serving methods are available for models?",
+      "answer": "The serving methods available are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two serving methods in OpenShift AI?",
+      "answer": "The two serving methods are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two options provided by OpenShift AI for model serving?",
+      "answer": "The options provided are single-model serving and multi-model serving."
+  },
+  {
+      "question": "How many serving options are there in OpenShift AI?",
+      "answer": "There are two serving options: single-model serving and multi-model serving."
+  },
+  {
+      "question": "What types of model serving are available in OpenShift AI?",
+      "answer": "The types available are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What serving options does OpenShift AI provide?",
+      "answer": "OpenShift AI provides single-model serving and multi-model serving options."
+  },
+  {
+      "question": "In OpenShift AI, what are the available serving options for models?",
+      "answer": "The available serving options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the options for serving models in OpenShift AI?",
+      "answer": "The options for serving models are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two model serving choices provided by OpenShift AI?",
+      "answer": "The choices provided are single-model serving and multi-model serving."
+  },
+  {
+      "question": "How many model serving options does OpenShift AI have?",
+      "answer": "OpenShift AI has two model serving options: single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the different model serving options in OpenShift AI?",
+      "answer": "The different options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What serving methods are offered by OpenShift AI for models?",
+      "answer": "The methods offered are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what are the model serving methods?",
+      "answer": "The methods are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What model serving options does OpenShift AI have?",
+      "answer": "The options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the two ways OpenShift AI can serve models?",
+      "answer": "The two ways are single-model serving and multi-model serving."
+  },
+  {
+      "question": "What model serving options are there in OpenShift AI?",
+      "answer": "The model serving options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "Which serving methods are available in OpenShift AI?",
+      "answer": "The available methods are single-model serving and multi-model serving."
+  },
+  {
+      "question": "Which two model serving options does OpenShift AI offer?",
+      "answer": "OpenShift AI offers single-model serving and multi-model serving."
+  },
+  {
+      "question": "What are the available options for serving models in OpenShift AI?",
+      "answer": "The available options are single-model serving and multi-model serving."
+  },
+  {
+      "question": "In OpenShift AI, what are the two ways to serve models?",
+      "answer": "The two ways are single-model serving and multi-model serving."
+  }
+]
