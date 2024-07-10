@@ -8,6 +8,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && \
     apt-get install -y curl git openssh-server python3-pip
 
+
 # Update package lists and install Python 3.9
 RUN apt-get update && \
     apt-get upgrade -y && \
@@ -41,8 +42,7 @@ RUN python3 -m pip install \
     codeflare-sdk==0.16 \
     skl2onnx \
     psycopg==3.1 \
-    mysql-connector-python==8.3
-
+    mysql-connector-python==8.3 \
 
 EXPOSE 8888
 
